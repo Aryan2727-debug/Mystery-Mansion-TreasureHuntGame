@@ -51,7 +51,7 @@ iv) To run the application, use the following command -
   # node app.js
   <br>
   
-# The Application is also Deployed on Cyclic under the following URL -  https://mystery-mansion.cyclic.app/
+# The Application is also Deployed on Cyclic under the following URL -  https://mystery-mansion-game.cyclic.app/
 
 <br><br>
 
