@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #23242a;
+}
+
+.main-heading{
+    font-weight: 600;
+    text-align: center;
+    background-color: #23242a;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.clues-para{
+    font-weight: 600;
+    text-align: center;
+    background-color: #23242a;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 1.5%;
+}
+
+li{
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+
+ul{
+    position: absolute;
+    top: 30%;
+}

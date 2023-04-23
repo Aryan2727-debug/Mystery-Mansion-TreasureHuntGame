@@ -1,0 +1,165 @@
+body {
+  background-color: #000000;
+  margin: 0px;
+  overflow: hidden;
+  font-style: 'Arial';
+}
+
+#info {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  color: #ffffff;
+  padding: 5px;
+  font-family: Monospace;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+}
+
+button {
+  position: absolute;
+}
+
+audio{
+  visibility: hidden;
+}
+
+/*hourglass CSS*/
+
+.glass {
+	height: 100%;
+	background-image: url('https://raw.githubusercontent.com/sumedha-prithyani/Hourglass/master/sand-glass-woo.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.get-hourglass{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);	
+}
+
+.container-glass {
+	position: absolute;
+  top: 8%;
+  left: 90%;
+  height: 150px;
+  width: 150px;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.finish-button{
+  position: absolute;
+  top: 28%;
+  left: 88.5%;
+}
+
+.link-class{
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  /* letter-spacing: 0.1em; */
+  font-weight: 400;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+
+.link-class:hover{
+  background: var(--clr);
+  /* letter-spacing: 0.25em; */
+  box-shadow: 0 0 35px var(--clr);
+}
+
+/*popup css*/
+
+.popup {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  display: inline-block;
+  cursor: pointer;
+  background-color: black;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  /* height: 200px;
+  width: 200px; */
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 60%;
+  margin-left: -80px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.link-class{
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+
+.link-class:hover{
+  background: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+
+.proceed-button{
+  position: absolute;
+  top: 65%;
+  left: 53%;
+}
+

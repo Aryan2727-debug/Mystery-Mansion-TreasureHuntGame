@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+    <title>Credentials</title>
+</head>
+<body>
+    <h1 class="login-heading">Enter your Credentials</h1>
+    <div class="box">
+        <span class="borderLine"></span>
+        <form action="/login" method="POST">
+            <h2>Enter your Information</h2>
+            <div class="inputBox">
+                <input type="email" name="email" required="required">
+                <span>Email</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" name="password" required="required">
+                <span>Password</span>
+                <i></i>
+            </div>
+            <br>
+            <button type="submit" class="link-class" style="--clr:#fff">Play</button>
+        </form>
+    </div>
+</body>
+</html>

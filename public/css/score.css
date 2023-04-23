@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #23242a;
+}
+
+.main-heading{
+    font-weight: 600;
+    text-align: center;
+    background-color: #23242a;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.score-para{
+    font-weight: 600;
+    text-align: center;
+    background-color: #23242a;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 1.5%;
+}
+
+.name-label{
+    position: absolute;
+    top: 29.5%;
+    left: 1.5%;
+    color: #fff;
+}
+
+.name-input{
+    position: absolute;
+    top: 29%;
+    left: 7%;
+    height: 30px;
+}
+
+.score-label{
+    position: absolute;
+    top: 35.5%;
+    left: 1.5%;
+    color: #fff;
+}
+
+.score-input{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    height: 30px;
+}
+
+.result-button{
+    position: absolute;
+    top: 55%;
+    left: 1.5%;
+}
+
+.submit-button{
+    position: absolute;
+    top: 45%;
+    left: 1.5%;
+}
+
+.link-class{
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.link-class:hover{
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+@media only screen and (max-width : 356px){
+    .score-para{
+        position : absolute;
+        top : 12%;
+    }
+    .name-input{
+        position : absolute;
+        left : 25%;
+    }
+    .score-input{
+        position : absolute;
+        left : 25%;
+    }
+}

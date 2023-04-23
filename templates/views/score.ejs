@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link charset="utf-8" href="css/score.css" media="screen" rel="stylesheet" title="no title">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/ico">
+    <title>Results</title>
+</head>
+<body>
+    <h1 class="main-heading">Enter your Score</h1>
+
+    <h3 class="score-para">Enter the Score you received in the Game (out of 23)</h3>
+    
+    <form action="/score" method="POST">
+
+        <label class="name-label">Name : </label>
+        <input class="name-input" type="text" name="name" required="required">
+        <label class="score-label">Score : </label>
+        <input class="score-input" type="number" name="score" required="required">
+
+    <button type="submit" class="link-class submit-button" style="--clr:#01fe87">Submit</button>
+
+   </form>
+   
+    <a class="link-class result-button" style="--clr:#01fe87" href="/result"><span>Check Results</span></a>
+</body>
+</html>
